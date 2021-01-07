@@ -28,11 +28,16 @@ h1,h2,h3,h4 {font-weight: 800; text-transform: uppercase;}
 h3{font-size: 1.6rem;}
 nav {font-weight: 600; text-transform: uppercase;}
 
+
+
 .nav-white{background-color: rgba(0,0,0,0);}
 .nav-white a{color: #fff;}
+.dropdown-item{color: #000 !important;}
 
 .nav-black{background-color: rgba(255,255,255,1); border-bottom: 1px solid #ccc;}
 .nav-black a{color: #222;}
+
+.mobile-menu{color: #fff; border: none;}
 
 
 #logo {padding: 0; margin: 0;}
@@ -42,12 +47,17 @@ nav {font-weight: 600; text-transform: uppercase;}
 #hero img{width: 100vw; height: 100vh; object-fit: cover;}
 #hero h1{position: absolute; color: #fff; top: 50vh; left: 10vw; font-size: 5rem;}
 
+#hero-secondary{width: 100%; margin-bottom: 8rem;}
+#hero-secondary img{width: 100vw; height: 65vh; object-fit: cover;}
+#hero-secondary h1{position: absolute; color: #fff; top: 40vh; left: 10vw; font-size: 5rem;}
+
 article {padding: 0 7rem 5rem;}
 article p {font-size: 2rem;}
 
 #partners {margin:5rem 0;}
 .banner-text{font-size: 2.2rem;}
 .logo-bar{padding: 4rem 0;}
+
 
 
 footer{background-color: #484848; padding: 3rem; color: #fff}

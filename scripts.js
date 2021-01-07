@@ -12,3 +12,12 @@ $(document).ready(function() {
       }
     });
   });
+
+  $(document).ready(function(){
+    if ($(window).width() < 990){
+      $("nav").removeClass("fixed-top");
+    }
+    else {
+      $("nav").addClass("black");
+    }
+});
